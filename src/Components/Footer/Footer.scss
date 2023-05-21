@@ -1,0 +1,116 @@
+footer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 5px;
+
+    .container {
+        height: 120px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #1E1D21;
+
+        ul {
+            width: auto;
+            padding: 0;
+            height: 35px;
+            display: flex;
+
+            li {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                overflow: hidden;
+
+                &:hover {
+                    background-color: #3e3e3e;
+
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+
+                a {
+                    padding: 10px 10px;
+                    color: #888;
+                    font-size: 13px;
+
+                }
+            }
+        }
+    }
+}
+
+.active {
+    background-color: #3e3e3e;
+    border: none;
+    text-decoration: underline;
+}
+
+.Footer-social_icons {
+    width: 11%;
+    height: 115px;
+    float: right;
+    padding: 10px;
+
+    p {
+        font-size: 12px;
+        color: white;
+    }
+
+    a {
+        transition: 1s;
+        padding: 0 2px;
+        padding-bottom: 50px;
+
+        i {
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            padding: 1px;
+            padding-left: 20px;
+            filter: grayscale(100%);
+            transition: .5s;
+
+            &:hover {
+                filter: grayscale(0%);
+            }
+        }
+
+        .socila-telgram {
+            background-image: url("https://films.bz/img/assets/telegram_logo.svg");
+        }
+
+        .socila-instagram {
+            background-image: url("https://films.bz/uploads/instagram_icon.png");
+        }
+    }
+
+    .Footer-right-bottom-div {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: solid 1px rgba(255, 255, 255, .28);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        float: right;
+        font-size: 14px/42px;
+        margin-top: 20px;
+        box-shadow: 0 0 1px rgba(255, 255, 255, .28)inset;
+    }
+}
+
+.Footer-text {
+    width: 60%;
+    height: 50px;
+    margin-top: -70px;
+    padding: 10px 20px;
+
+    p {
+        font-size: 12px;
+        color: white;
+    }
+}

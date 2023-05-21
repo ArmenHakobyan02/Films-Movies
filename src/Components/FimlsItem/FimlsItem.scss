@@ -1,0 +1,137 @@
+.FimlsItem_App {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+.FimlsItem_title {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+
+    h1 {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 10px 0 0 0;
+    }
+
+    .FimlsItem_Subtitle {
+        color: #c4d3e3;
+        font-size: 15px;
+    }
+}
+
+
+.FimlsItem_Left {
+    width: 20%;
+    height: 350px;
+
+    img {
+        width: 100%;
+        height: 300px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+
+    button {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-radius: 3px;
+        background-color: #313131;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        svg {
+            font-size: 30px;
+        }
+    }
+}
+
+.FimlsItem_Right {
+    width: 75%;
+    margin-left: 3%;
+
+    table {
+        border-bottom: 1px #38383887 double;
+
+        tr {
+            border-top: 1px #38383887 double;
+            width: 100%;
+
+            &:hover {
+                background-color: #323133ab;
+            }
+
+            th {
+                width: 10%;
+                color: #919296;
+                font-size: 14px;
+                padding: 5px;
+            }
+
+            td {
+                color: white;
+                padding: 5px;
+
+                a {
+                    color: #c9e8c1;
+                }
+
+                .FilmsItem_category:nth-child(n+2) {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+.FimlsItem_Bottom {
+    width: 85%;
+    margin-top: 10px;
+
+    div {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #e4e4e4;
+    }
+}
+
+.FimlsItem_video_container_div {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-top: 15px;
+    object-fit: contain;
+}
+
+/* Drop video */
+.Drop_Triler_Video {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+.trailer_Video {
+    width: 60%;
+    height: 450px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}

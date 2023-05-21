@@ -1,0 +1,119 @@
+.FilmsList-App {
+  width: 100%;
+  height: auto;
+}
+.FilmsList-App .container {
+  gap: 15.7px;
+  flex-wrap: wrap;
+}
+
+.FilmsList-items {
+  width: 15.5%;
+  height: 300px;
+  position: relative;
+}
+.FilmsList-items:hover .FilmsList_camera_icon span {
+  display: inline-block;
+  font-size: 16px;
+}
+.FilmsList-items:hover .FilmsList_camera_icon svg {
+  display: none;
+}
+.FilmsList-items:hover .FilmsList_Play {
+  display: flex;
+}
+
+.FilmsList_Play {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.FilmsList_Play div {
+  width: 60px;
+  height: 60px;
+  border: solid 1.5px #7b7b7b;
+  border-style: double;
+  border-radius: 50%;
+  background-color: rgba(30, 29, 33, 0.7019607843);
+  transition: 0.3s;
+  background-image: url("https://films.bz/img/sprite.svg");
+  background-size: 130px 120px;
+  background-position: 140px 191px;
+  margin-bottom: 50px;
+}
+.FilmsList_Play div:hover {
+  transform: scale(1.1);
+}
+
+.FilmsList_imges {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.FilmsList_short_subtitle {
+  margin-top: -10px;
+  font-size: 12px;
+  font-weight: 300;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.FilmsList_short_subtitle:hover {
+  color: #c9e8c1;
+}
+
+.FilmsList_short_bottom_year {
+  color: white;
+  font-size: 12px;
+}
+
+.FilmsList_camera_icon {
+  width: auto;
+  border-radius: 3px;
+  background-color: #7B7B7B;
+  padding: 0 5px 3px 6px;
+  position: absolute;
+  left: auto;
+  top: 0;
+  right: 0;
+}
+.FilmsList_camera_icon span {
+  display: none;
+}
+
+.FilmsList_flag_hayeren {
+  width: 25px;
+  height: 15px;
+  border-radius: 3px;
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  background-image: url("https://www.advantour.com/img/armenia/images/flag.jpg");
+  background-size: contain;
+}
+
+.FilmsList_Rating {
+  width: auto;
+  border-radius: 3px;
+  padding: 0 3px 0 3px;
+  background-color: #858585;
+  position: absolute;
+  right: 0.5%;
+  top: 78%;
+  font-size: 12px;
+}/*# sourceMappingURL=FilmsList.css.map */

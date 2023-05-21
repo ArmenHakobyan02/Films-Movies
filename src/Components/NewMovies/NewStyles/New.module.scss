@@ -1,0 +1,32 @@
+.NewMovies_App {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.NewMovies_box_Name {
+    width: 90%;
+    color: white;
+    padding: 0 10px 5px 0;
+
+    &:hover .NewMovies_box_title svg {
+        background-color: #646169;
+    }
+}
+
+.NewMovies_box_title {
+    font-size: 20px;
+    font-weight: 300;
+
+    svg {
+        margin-left: 5px;
+        border-radius: 9px;
+        width: 25px;
+        height: 25px;
+        padding: 3px;
+        background-color: #293036;
+    }
+}

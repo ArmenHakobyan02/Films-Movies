@@ -1,0 +1,123 @@
+.FimlsItem_App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.FimlsItem_App .container {
+  flex-wrap: wrap;
+}
+
+.FimlsItem_title {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
+.FimlsItem_title h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0 0 0;
+}
+.FimlsItem_title .FimlsItem_Subtitle {
+  color: #c4d3e3;
+  font-size: 15px;
+}
+
+.FimlsItem_Left {
+  width: 20%;
+  height: 350px;
+}
+.FimlsItem_Left img {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.FimlsItem_Left button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  background-color: #313131;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.FimlsItem_Left button svg {
+  font-size: 30px;
+}
+
+.FimlsItem_Right {
+  width: 75%;
+  margin-left: 3%;
+}
+.FimlsItem_Right table {
+  border-bottom: 1px rgba(56, 56, 56, 0.5294117647) double;
+}
+.FimlsItem_Right table tr {
+  border-top: 1px rgba(56, 56, 56, 0.5294117647) double;
+  width: 100%;
+}
+.FimlsItem_Right table tr:hover {
+  background-color: rgba(50, 49, 51, 0.6705882353);
+}
+.FimlsItem_Right table tr th {
+  width: 10%;
+  color: #919296;
+  font-size: 14px;
+  padding: 5px;
+}
+.FimlsItem_Right table tr td {
+  color: white;
+  padding: 5px;
+}
+.FimlsItem_Right table tr td a {
+  color: #c9e8c1;
+}
+.FimlsItem_Right table tr td .FilmsItem_category:nth-child(n+2) {
+  margin-left: 10px;
+}
+
+.FimlsItem_Bottom {
+  width: 85%;
+  margin-top: 10px;
+}
+.FimlsItem_Bottom div {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #e4e4e4;
+}
+
+.FimlsItem_video_container_div {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-top: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/* Drop video */
+.Drop_Triler_Video {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+.trailer_Video {
+  width: 60%;
+  height: 450px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}/*# sourceMappingURL=FimlsItem.css.map */
